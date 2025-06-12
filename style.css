@@ -35,17 +35,25 @@ footer {
   margin-top: 40px;
   padding: 20px;
   background-color: #f4f4f4;
+ }
+
+social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.social-links img {
+  width: 64px;          /* makes icons bigger */
+  height: 64px;
+  margin: 0 16px;        /* adds space between icons */
+  transition: transform 0.3s ease;
 }
 
-.social-links a {
-  margin: 0 10px;
-  display: inline-block;
-  transition: transform 0.2s ease-in-out;
+.social-links img:hover {
+  transform: scale(1.2); /* optional hover zoom */
 }
 
-.social-links a:hover {
-  transform: scale(1.1);
-}
 
   margin-top: 2rem;
   padding: 1rem 0;
